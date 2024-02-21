@@ -1,11 +1,11 @@
-package org.example;
+package devices;
 
 public class MobileDevice {
     boolean isBluetoothOn;
     boolean isNFCOn;
     boolean isWiFiOn;
     boolean isDataTransmissionOn;
-    Device device;
+    public Device device;
 
     public MobileDevice(boolean isBluetoothOn, boolean isNFCOn, boolean isWiFiOn, boolean isDataTransmissionEnabled) {
         this.isBluetoothOn = isBluetoothOn;

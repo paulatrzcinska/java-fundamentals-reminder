@@ -1,10 +1,12 @@
-package org.example;
+package main;
 
-import java.util.ArrayList;
+import devices.*;
+import words.WordsHelper;
 
 public class Main {
     public static void main(String[] args) {
-        Device device1;
+        // Devices
+        /* Device device1;
         device1 = new Device("iphone15 pro max", "KN7654", 2023);
         device1.battery = new Battery(80, true, 95);
         device1.hardwareData = new HardwareData("Radeon", 8, 256);
@@ -27,6 +29,15 @@ public class Main {
         device2.mobileDeviceInfo();
 
         device2.disableBluetooth();
-        device2.mobileDeviceInfo();
+        device2.mobileDeviceInfo(); */
+
+        // Words
+        System.out.println("Actions for \"Czosnek\":");
+        WordsHelper.isPalindrome("czosnek");
+        WordsHelper.countVowels("czosnek");
+
+        System.out.println("Actions for \"KamilŚlimak\":");
+        WordsHelper.isPalindrome("KamilŚlimak");
+        WordsHelper.countVowels("KamilŚlimak");
     }
 }

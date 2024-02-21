@@ -1,4 +1,4 @@
-package org.example;
+package devices;
 
 public class HardwareData {
     String processor;

@@ -1,4 +1,4 @@
-package org.example;
+package devices;
 
 import java.util.Arrays;
 
